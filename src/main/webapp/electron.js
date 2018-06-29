@@ -130,7 +130,7 @@ function createWindow (opt = {})
 					'picker': 0,
 					'mode': 'device',
 					'browser': 0,
-					'export': 'http://localhost:8000'
+					'export': 'http://borg.dev.je:8000/'
 				},
 				slashes: true,
 			})

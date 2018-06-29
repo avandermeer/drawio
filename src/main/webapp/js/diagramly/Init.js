@@ -8,7 +8,7 @@ window.isLocalStorage = window.isLocalStorage || false;
 window.isSvgBrowser = window.isSvgBrowser || (navigator.userAgent.indexOf('MSIE') < 0 || document.documentMode >= 9);
 
 // CUSTOM_PARAMETERS - URLs for save and export
-window.EXPORT_URL = window.EXPORT_URL || 'http://localhost:8000';
+window.EXPORT_URL = window.EXPORT_URL || 'http://borg.dev.je:8000/';
 window.PLANT_URL = window.PLANT_URL || 'https://exp-plant.draw.io/plantuml2';
 window.VSD_CONVERT_URL = window.VSD_CONVERT_URL || "https://convert.draw.io/VsdConverter/api/converter";
 window.SAVE_URL = window.SAVE_URL || 'save';
